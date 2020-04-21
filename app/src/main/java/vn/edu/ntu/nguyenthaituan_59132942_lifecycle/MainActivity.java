@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
         time = findViewById(R.id.thaituan);
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
-
         String tg = sdf.format(new Date());
         time.setText(tg);
     }
@@ -49,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
         time = findViewById(R.id.thaituan);
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
-
         String tg = sdf.format(new Date());
         time.setText(tg);
     }
